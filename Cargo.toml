@@ -1,6 +1,17 @@
 [package]
 name = "perchance_api"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["EeeMoon (Original Python), Rust Port"]
+description = "Unofficial Rust API for Perchance."
+license = "MIT"
 
 [dependencies]
+tokio = { version = "1.32", features = ["full"] }
+playwright = "0.0.19"
+thiserror = "1.0"
+rand = "0.8"
+futures = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+base64 = "0.21"
