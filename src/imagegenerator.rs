@@ -1,6 +1,6 @@
 use crate::error::{PerchanceError, Result};
 use crate::generator::Generator;
-use base64::{engine::general_purpose, Engine as _};
+//use base64::{engine::general_purpose, Engine as _};
 use rand::Rng;
 use tokio::fs::File;
 use tokio::io::AsyncWriteExt;
