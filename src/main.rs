@@ -1,5 +1,5 @@
-use perchance::imagegenerator::ImageGenerator;
-use perchance::textgenerator::TextGenerator;
+use perchance_api::imagegenerator::ImageGenerator;
+use perchance_api::textgenerator::TextGenerator;
 use std::error::Error;
 
 #[tokio::main]
